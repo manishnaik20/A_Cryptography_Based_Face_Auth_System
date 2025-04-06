@@ -1,6 +1,3 @@
-**🔐 A Cryptography-Based Face Authentication System for Secured Communication**  
-
----
 
 ```markdown
 # 🔐 A Cryptography-Based Face Authentication System for Secured Communication
@@ -33,21 +30,41 @@ This project combines **face recognition** and **cryptographic encryption** to b
 ## 🚀 How to Run the Project
 
 1. **Clone or download** the project files.
-2. Set up your Python virtual environment (optional but recommended):
+2. (Optional) Set up a virtual environment:
    ```bash
    python -m venv venv
    venv\Scripts\activate
+   ```
+3. Install all required libraries:
+   ```bash
    pip install -r requirements.txt
    ```
-3. Run the sender (after adding authorized face images):
+4. Run the sender (after adding authorized face images):
    ```bash
    python sender.py
    ```
-4. On another terminal or system, run the receiver:
+5. On another terminal or system, run the receiver:
    ```bash
    python receiver.py
    ```
-5. Follow the on-screen instructions to authenticate and transfer encrypted messages securely.
+6. Follow the on-screen instructions to authenticate and transfer encrypted messages securely.
+
+---
+
+## 📥 Installing Requirements
+
+Before running the project, make sure to install all dependencies using:
+
+```bash
+pip install -r requirements.txt
+```
+
+This will install:
+
+- `opencv-python` – for capturing and processing video frames
+- `face-recognition` – for authenticating users via facial recognition
+- `cryptography` – for encrypting and decrypting messages securely
+- `numpy` – for image and data processing
 
 ---
 
@@ -94,3 +111,5 @@ Java Full Stack Developer | AI & Security Enthusiast
 
 ⭐ If you like this project, consider giving it a **star** on GitHub!
 ```
+
+---
